@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Divisas</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="page1.html" target="_blank">Page 1</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="pagea.html">Peliculas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pageb.html">Divisas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pagec.html">Traductor</a>
+              </li>
+          </div>
+        </div>
+    </nav>     
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 d-none d-sm-block">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col"><img src="images/divisas1.jpg" class="divisas1" alt=""> ARS</th>
+                <th scope="col"><img src="images/divisas2.jpg" class="divisas1" alt=""> USD</th>
+                <th scope="col"><img src="images/divisas3.jpg" class="divisas1" alt=""> EU</th>
+                <th scope="col"><img src="images/divisas4.png" class="divisas1" alt=""> R$</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><img src="images/divisas1.jpg" class="divisas1" alt=""> ARS</th>
+                <td><b>1</b></td>
+                <td>0,0088</td>
+                <td>0,0081</td>
+                <td>0,041</td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="images/divisas2.jpg" class="divisas1" alt=""> USD</th>
+                <td>113,99</td>
+                <td><b>1</b></td>
+                <td>0,92</td>
+                <td>4,68</td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="images/divisas3.jpg" class="divisas1" alt=""> EU</th>
+                <td>123,24</td>
+                <td>1,08</td>
+                <td><b>1</b></td>
+                <td>5,05</td>
+              </tr>
+              <tr>
+                <th scope="row"><img src="images/divisas4.png" class="divisas1" alt=""> R$</th>
+                <td>24,32</td>
+                <td>0,21</td>
+                <td>0,20</td>
+                <td><b>1</b></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-md-4 cold-sm-12">
+          <form>
+            <div class="form-group">
+              <label for="cantidad">Cantidad</label>
+              <input type="number" class="form-control" id="cantidad" placeholder="Cantidad">
+            </div>
+            <div class="form-group">
+              <label for="de">De:</label>
+              <select class="form-control" id="de">
+                <option>Pesos Argentinos (ARS)</option>
+                <option>Dolares Estadounidenses (USD)</option>
+                <option>Euros (EU)</option>
+                <option>Real Brasileño (R$)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="a">A:</label>
+              <select class="form-control" id="a">
+                <option>Dolares Estadounidenses (USD)</option>
+                <option>Pesos Argentinos (ARS)</option>
+                <option>Euros (EU)</option>
+                <option>Real Brasileño (R$)</option>
+              </select>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-danger buttonConvertir">CONVERTIR</button>
+            <br>
+            <div class="form-group">
+              <label for="resultado">Resultado</label>
+              <textarea disabled class="form-control" id="resultado" rows="1"></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <br>
+    <footer class="page-footer font-small btn-primary">
+      <div class="footer-copyright text-center py-3">Castillo Vargas, Enzo Pedro</br>40.441.875</div>
+    </footer>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
