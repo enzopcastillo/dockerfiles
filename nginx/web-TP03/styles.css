@@ -1,0 +1,99 @@
+/********************* PAGE 1 *********************/
+
+/* GENERAL */
+.container-fluid{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+
+/********************* PAGE 1 *********************/
+/* HEADER */
+.header1{
+    background-color: yellow;
+    height: 100px;
+    
+}
+
+/* CONTENT */
+.content1{
+    background-color: violet;
+    height: 500px;
+}
+
+.content2{
+    background-color: grey;
+    height: 500px;
+}
+
+.content3{
+    background-color: pink;
+    height: 500px;
+}
+
+/* FOOTER */
+.footer1{
+    background-color: yellow;
+    height: 100px;
+}
+
+.footer2{
+    background-color: yellowgreen;
+    height: 100px;
+}
+
+/********************* PAGE A *********************/
+.card-img-top{
+    width: 250px;
+    height: 350px;
+}
+
+.card{
+    height: 600px;
+    width: 250px;
+    font-size: small;
+}
+
+/********************* PAGE B *********************/
+.divisas1{
+    width: 30px;
+    height: 20px;
+}
+
+.buttonConvertir{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #04AA6D;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/********************* PAGE C *********************/
+.cont-c{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 500px;
+    width: 400px;
+}
+
+.button1{
+    width: 30px;
+    height: 20px;
+}
+
+.buttonTraducir{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #04AA6D;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}

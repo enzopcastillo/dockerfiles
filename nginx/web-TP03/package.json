@@ -1,0 +1,23 @@
+{
+  "name": "castilloenzo-tpn2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzopcastillo/UNJU-TPN2.git"
+  },
+  "author": "Enzo Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enzopcastillo/UNJU-TPN2/issues"
+  },
+  "homepage": "https://github.com/enzopcastillo/UNJU-TPN2#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.8.1"
+  }
+}
